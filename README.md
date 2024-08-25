@@ -1,6 +1,9 @@
 # Robo SegueLinha Robotica
  
-Conexões no arduino {
+
+Conexões para o Arduino
+
+    Conexões no arduino {
     (2x)Sensor reflexivo do infravermelho
         Sensor direito - Porta digital 12
         Sensor esquerdo - Porta digital 13
