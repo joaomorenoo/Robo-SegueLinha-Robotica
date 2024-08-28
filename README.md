@@ -7,6 +7,9 @@ Conexões para o Arduino
     (2x)Sensor reflexivo do infravermelho
         Sensor direito - Porta digital 12
         Sensor esquerdo - Porta digital 13
+    Sensor ultrassônico
+        Pino Echo - Porta digital 4
+        Pino Trig - Porta digital 2
 
     Ponte H para funcionamento dos dois motores das rodas
         Conexão N1 e N2 reservados ao motor esquerdo
