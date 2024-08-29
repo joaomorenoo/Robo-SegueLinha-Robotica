@@ -29,11 +29,11 @@ void loop() {
   int Velocidade = 60;
   int Distancia = sensorDistancia.ping_cm();
   
-  if(Distancia <= 10) {
-    analogWrite(motorEN1, 0); 
-    analogWrite(motorEN2, 0); 
-    analogWrite(motorDN3, 0); 
-    analogWrite(motorDN4, 0); 
+  if(Distancia <= 6) {
+    digitalWrite(motorEN1, LOW); 
+    digitalWrite(motorEN2, LOW); 
+    digitalWrite(motorDN3, LOW); 
+    digitalWrite(motorDN4, LOW); 
   } else {
         if (!EstadoD && !EstadoE) {
         analogWrite(motorEN1, Velocidade); 
