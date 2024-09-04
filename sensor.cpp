@@ -22,7 +22,7 @@ void setup() {
   pinMode(motorDN4, OUTPUT);
 
   pinMode(emissorTrig, OUTPUT);
-  pinMode(receptorEcho, INPUT)
+  pinMode(receptorEcho, INPUT);
 
   Serial.begin(9600);
 }
@@ -39,7 +39,7 @@ void loop() {
     analogWrite(motorEN2, Velocidade); 
     analogWrite(motorDN3, Velocidade); 
     analogWrite(motorDN4, 0);
-
+    //musica();
     }
     if (EstadoD && EstadoE) {
       analogWrite(motorEN1, 0); 
